@@ -12,6 +12,22 @@
           "src/main/resources/assets/medieval_adventures/models/item/test.json"
         ]
       }
+    },
+    {
+      "name": "StoneyGravel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stoney_gravel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/medievaladventures/block/StoneyGravelBlock.java",
+          "src/main/resources/data/medieval_adventures/loot_tables/blocks/stoney_gravel.json",
+          "src/main/resources/assets/medieval_adventures/models/item/stoney_gravel.json",
+          "src/main/resources/assets/medieval_adventures/blockstates/stoney_gravel.json",
+          "src/main/resources/assets/medieval_adventures/models/block/stoney_gravel.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -19,7 +35,8 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
-      "item.medieval_adventures.test": "Test"
+      "item.medieval_adventures.test": "Test",
+      "block.medieval_adventures.stoney_gravel": "Stoney Gravel"
     }
   },
   "foldersRoot": {

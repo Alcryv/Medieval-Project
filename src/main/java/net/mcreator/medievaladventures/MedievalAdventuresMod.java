@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.medievaladventures.init.MedievalAdventuresModItems;
+import net.mcreator.medievaladventures.init.MedievalAdventuresModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -38,6 +39,8 @@ public class MedievalAdventuresMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		MedievalAdventuresModBlocks.REGISTRY.register(bus);
 
 		MedievalAdventuresModItems.REGISTRY.register(bus);
 

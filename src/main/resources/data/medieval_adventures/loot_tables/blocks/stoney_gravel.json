@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "medieval_adventures:blocks/stoney_gravel",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "medieval_adventures:stoney_gravel"
+        }
+      ]
+    }
+  ]
+}

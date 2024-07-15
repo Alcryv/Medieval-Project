@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "medieval_adventures:block/stoney_gravel",
+    "up": "medieval_adventures:block/stoney_gravel",
+    "north": "medieval_adventures:block/stoney_gravel",
+    "east": "medieval_adventures:block/stoney_gravel",
+    "south": "medieval_adventures:block/stoney_gravel",
+    "west": "medieval_adventures:block/stoney_gravel",
+    "particle": "medieval_adventures:block/stoney_gravel"
+  },
+  "render_type": "solid"
+}
