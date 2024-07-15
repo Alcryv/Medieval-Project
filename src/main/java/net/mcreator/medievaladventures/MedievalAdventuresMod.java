@@ -17,6 +17,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.medievaladventures.init.MedievalAdventuresModTabs;
 import net.mcreator.medievaladventures.init.MedievalAdventuresModItems;
 import net.mcreator.medievaladventures.init.MedievalAdventuresModBlocks;
 
@@ -43,6 +44,8 @@ public class MedievalAdventuresMod {
 		MedievalAdventuresModBlocks.REGISTRY.register(bus);
 
 		MedievalAdventuresModItems.REGISTRY.register(bus);
+
+		MedievalAdventuresModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

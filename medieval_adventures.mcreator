@@ -3,6 +3,7 @@
     {
       "name": "Test",
       "type": "item",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test",
@@ -16,6 +17,7 @@
     {
       "name": "StoneyGravel",
       "type": "block",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stoney_gravel",
@@ -28,14 +30,30 @@
           "src/main/resources/assets/medieval_adventures/models/block/stoney_gravel.json"
         ]
       }
+    },
+    {
+      "name": "MedievalAdventures",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medieval_adventures",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:StoneyGravel"
+    ]
+  },
   "language_map": {
     "en_us": {
       "item.medieval_adventures.test": "Test",
+      "item_group.medieval_adventures.medieval_adventures": "Medieval Adventures",
       "block.medieval_adventures.stoney_gravel": "Stoney Gravel"
     }
   },
@@ -54,8 +72,12 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "mcreator_link",
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.medievaladventures"
   },
   "mcreatorVersion": 202400118518
